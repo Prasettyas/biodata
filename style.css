@@ -1,0 +1,272 @@
+body {  
+        font: 16px;
+        background-image: url(img/2.jpg);
+        color: salmon; 
+      }
+
+
+.top-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 40px;
+            z-index: 999;
+            background-color: lightblue;
+            border-bottom: 2px solid salmon;
+            text-align: center;
+        }
+
+ .home { 
+       		padding: 5px;
+              margin-top: 100px;
+              height: 500px;
+            }
+
+.home .judul {
+  	          font-size: 40px;
+  	          font-weight: bold;
+              text-align: center;
+              }
+
+.top-bar ul li { 
+          display: inline-block;
+  				margin-top: -100px;
+  				margin-right: 1px;
+              }
+
+.top-bar a { 
+   				text-decoration: none;
+   				color: salmon;
+   				padding: 3px;
+           }
+
+.top-bar a:hover  {  
+                	background-color: lightblue;
+    				color: salmon;
+                  }
+
+
+.hero { 
+     	height: 300px;
+        background-size: cover;
+        background-position: 0 -100px;
+        text-align: center;
+      }
+
+.hero h1 {
+          font-size: 80px;
+          color: salmon;
+        }
+
+
+.profile {  
+          width: 100%;
+          height: 500px;
+          padding: 5px;
+          box-sizing: border-box;
+          float : left;
+          margin-top:55px;
+          color: salmon;
+          background: lightblue;
+        }
+
+.profile h2 { 
+              font-size: 30px;
+              font-weight: bold;
+              text-align: center;
+            }
+
+.profile h4 {
+              font-size: 40px;
+              text-align: center;
+              font-weight: bold;
+            }
+
+.profile p {
+            font-size: 28px;
+            text-align: center;
+            }
+
+.profile img {
+              width: 200px;
+              height: 200px;
+              margin-left: 42%;
+              border-radius: 150px;
+              border : 3px solid salmon;           
+              }
+
+hr {
+    width: 250px;
+    border-top: 3px solid salmon;
+  }
+
+.about {  
+        width: 100%;
+        height: 500px;
+        padding: 5px;
+        box-sizing: border-box;
+        float : left;
+        margin-top:55px;
+        color: salmon;
+   }
+
+.about h2 { 
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+          }
+
+.about p  {
+            font-size: 20px;
+          }
+
+.portfolio {  
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            float : left;
+            margin-top:55px;
+            color: salmon;
+            background: lightblue;
+            text-align: center;
+          }
+
+.portfolio h2 { 
+                font-size: 30px;
+                font-weight: bold;
+                text-align: center
+              }
+
+div.image {
+            border: 1px solid salmon;
+          }
+
+div.image img {
+                width: 100%;
+                height: auto;
+              }
+
+* {
+    box-sizing: border-box;
+  }
+
+.responsive {
+              padding: 30px;
+              float: left;
+              width: 24.99999%;
+            }
+
+@media only screen and (max-width: 500px;)  {
+                                .responsive {
+                                            width: 49.99999%;
+                                            height: 6px 0;
+                                            }
+                                            }
+
+
+@media only screen and(max-width: 50px;)    {
+                                .responsive {
+                                              width: 100%;
+                                            }
+                                            }
+
+.clearfix:alter {
+                content: "";
+                display: table;
+                clear: both;
+                }
+  
+img {
+      padding: 5px;
+    }
+
+.contact {  
+            width: 100%;
+            float : left;
+            color: salmon;
+            text-align: center;
+        }
+
+.contact h2 { 
+              font-size: 30px;
+              text-align: center;
+            }
+
+input, textarea {
+                  padding: 10px;
+                  border : 3px solid lightblue;
+                  border-radius: 5px;
+                  margin-bottom: 15px;
+                }
+ 
+input:focus, textarea:focus {
+                            border: 4px solid salmon;
+                            }
+
+input { 
+        width: 500px; 
+      }
+
+textarea{
+          width: 500px;
+        }
+
+input[type="submit"]{
+  cursor: pointer;
+  background: -webkit-linear-gradient(top, #00bfff, #ffb6c1);
+  background: -moz-linear-gradient(top, #00bfff, #ffb6c1);
+  background: -ms-linear-gradient(top, #00bfff, #ffb6c1);
+  background: -o-linear-gradient(top, #00bfff, #ddd);
+  background: linear-gradient(top, #00bfff, #ddd);
+  color: #333;
+  text-shadow: 0px 1px rgba(255,255,255,1);
+  border: 1px solid #ccc;
+}
+
+input[type="submit"]:hover{
+  background: -webkit-linear-gradient(top, #00bfff, #ffb6c1);
+  background: -moz-linear-gradient(top, #00bfff, #ffb6c1);
+  background: -ms-linear-gradient(top, #00bfff, #ffb6c1);
+  background: -o-linear-gradient(top, #00bfff, #ffb6c1);
+  background: linear-gradient(top, #00bfff, #ffb6c1);
+  border: 1px solid #bbb;
+
+}
+
+.footer { 
+          padding-top: 5px;
+          height: 110px;
+          width: 100%;
+          margin-top:110%;
+          background-color: lightblue;
+        }
+
+#footer { 
+          font-weight: normal;
+          color : salmon;
+          font-size: 20px;
+          text-align: center; 
+        }
+
+footer p {
+  color: salmon;
+  font-size: 1em;
+          }
+
+
+.cf:before,
+.cf:after {
+            content: " "; 
+            display: table; 
+          }
+
+.cf:after {
+            clear: both;
+          }
+
+.cf {
+    *zoom: 0.1;
+    }
+
+
